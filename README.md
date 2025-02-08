@@ -35,7 +35,7 @@ between them. The only important random variables for this problem
 that will be used are the y-coordinate of the bottom of the stick from
 0 to 1,
 $y$, and the angle that the stick makes with the horizontal from 0
-to π radians,$\theta$. The stick will cross one of the lines if and
+to π radians, $\theta$. The stick will cross one of the lines if and
 only if $y +
 \sin(\theta) > 1$. This reformulates the problem as one of finding
 the probability that $y > 1 - \sin(\theta)$. A graph of $y$
