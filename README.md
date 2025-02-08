@@ -11,11 +11,13 @@ and
 
 To build buffon, run the following commands from the root of the
 repository:
-`cmake -S . -B build
-cmake --build build`
+
+
+> ```cmake -S . -B build
+cmake --build build```
 
 To run the program run the following command:
-`./build/buffon/buffon`
+> ```./build/buffon/buffon```
 
 ## Explanation
 
@@ -30,13 +32,16 @@ that will be used are the y-coordinate of the bottom of the stick from
 0 to 1,
 $y$, and the angle that the stick makes with the horizontal from 0
 to π radians,$\theta$. The stick will cross one of the lines if and
-only if $y$ +
+only if $y +
 \sin(\theta) > 1$. This reformulates the problem as one of finding
 the probability that $y > 1 - \sin(\theta)$. A graph of $y$
 against $1 - \sin(\theta)$ can be plotted. The probability can then
 be found by dividing the area above the curve on the graph by the
 total area of the region. Therefore the probability is
-$\frac{\int_0^{\pi} \sin(\theta) d\theta}{\pi \times 1} =
-\frac{2}{\pi\}$. This means that π can be found by experimentally
+
+$$\frac{\int_0^{\pi} \sin(\theta) d\theta}{\pi \times 1} =
+\frac{2}{\pi\}$$
+
+This means that π can be found by experimentally
 determining the probability, $p$ that a stick will cross one of the
 lines, and calculating $\frac{2}{p}$.
