@@ -13,11 +13,15 @@ To build buffon, run the following commands from the root of the
 repository:
 
 
-```cmake -S . -B build
-cmake --build build```
+```sh
+cmake -S . -B build
+cmake --build build
+```
 
 To run the program run the following command:
-```./build/buffon/buffon```
+```sh
+./build/buffon/buffon
+```
 
 ## Explanation
 
